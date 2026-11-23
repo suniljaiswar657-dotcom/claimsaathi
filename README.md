@@ -29,3 +29,8 @@ Static HTML, CSS and vanilla JavaScript. No third-party runtime dependencies.
 
 ## Pricing and payments
 The site currently shows a pricing preview only: free core tools and proposed ClaimSaathi Plus pricing of ₹149 per claim pack (global target US$2.99). These prices are not validated market pricing and are not purchasable. No checkout or payment collection is active. Before launch, implement server-side payment verification, order records, refunds, access control and privacy/security review. Never treat a browser-only flag as proof of payment.
+
+- Local Premium Claim Workspace preview: deduction tracker, dated follow-up timeline, four editable insurer letter templates, and print / save-as-PDF workspace view. Workspace entries are stored in browser localStorage only.
+
+### Premium workspace privacy
+Deduction and follow-up entries are stored in this browser's localStorage. They are not synced across devices or uploaded by the app. Clearing workspace data removes those local entries. Letter templates are generated in the page and are not uploaded. Payment and premium access remain disabled.
