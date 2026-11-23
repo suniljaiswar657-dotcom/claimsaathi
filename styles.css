@@ -14,3 +14,16 @@
 
 /* Pricing preview */
 .pricing-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:22px 0}.price-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px}.price-card.featured{border-color:#477466;background:linear-gradient(160deg,#172d37,var(--panel) 65%)}.price-kicker{font-size:10px;letter-spacing:1.8px;font-weight:700;color:var(--mint)}.price-card h3{font:700 23px Manrope;margin:9px 0}.price{font:800 30px Manrope;margin:12px 0}.price small,.global-price{font:12px 'DM Sans';color:var(--muted)}.price-card ul{padding-left:19px;color:#c8d5e5;font-size:13px;line-height:2}.plan-status{display:inline-block;margin-top:10px;padding:7px 10px;border:1px solid #477466;border-radius:8px;color:var(--mint);font-size:11px}.plan-status.pending{color:#f5ce7b;border-color:#79643b}.pricing-note{line-height:1.7}.pricing-note strong{color:#f5ce7b}@media(max-width:650px){.pricing-grid{grid-template-columns:1fr}}
+
+/* Premium workspace layout */
+.workspace-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:20px 0}
+.workspace-card{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:18px;margin:16px 0}
+.workspace-card h3{font:700 18px Manrope;margin:0 0 10px}
+.workspace-card .field-grid{margin:8px 0}
+.workspace-row{padding:12px 0;border-bottom:1px solid var(--line)}
+.workspace-row:last-child{border-bottom:0}
+.workspace-row strong{color:var(--mint)}
+.workspace-row p{color:var(--muted);font-size:12px;margin:5px 0}
+.template-card{margin-top:20px}
+@media(max-width:650px){.workspace-grid{grid-template-columns:1fr}}
+@media print{body.print-workspace *{visibility:hidden!important}body.print-workspace #workspace,body.print-workspace #workspace *{visibility:visible!important}body.print-workspace #workspace{position:absolute;left:0;top:0;width:100%;padding:0;background:#fff;color:#111}body.print-workspace #workspace .section-head,body.print-workspace #workspace>.notice,body.print-workspace #workspace button{display:none!important}body.print-workspace #workspace .workspace-card,body.print-workspace #workspace .results{background:#fff;color:#111;border:0;padding:8px}body.print-workspace #workspace input,body.print-workspace #workspace textarea,body.print-workspace #workspace select{display:none!important}body.print-workspace #workspace .workspace-row strong{color:#111}}
