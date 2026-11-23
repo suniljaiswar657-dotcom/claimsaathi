@@ -9,6 +9,7 @@ Mobile-first health-insurance claim companion for India and global users.
 - Claim rejection / deduction review checklist
 - Editable insurer representation letter generator with print / save-as-PDF support
 - User-controlled clearing of saved checklist ticks\n- Local consolidated claim review report with print / PDF and HTML download
+- Transparent pricing preview: free core tools and proposed one-time Plus claim pack
 
 ## Run locally
 Open `index.html` in a browser. No build step, API key, account, database or paid service is required.
@@ -24,3 +25,7 @@ ClaimSaathi is an independent information and document-organisation tool, not an
 
 ## Stack
 Static HTML, CSS and vanilla JavaScript. No third-party runtime dependencies.
+
+
+## Pricing and payments
+The site currently shows a pricing preview only: free core tools and proposed ClaimSaathi Plus pricing of ₹149 per claim pack (global target US$2.99). These prices are not validated market pricing and are not purchasable. No checkout or payment collection is active. Before launch, implement server-side payment verification, order records, refunds, access control and privacy/security review. Never treat a browser-only flag as proof of payment.
